@@ -1,0 +1,34 @@
+{
+    "name": "prgtw/sqldatetime",
+    "description": "SQL-like PHP DateTime class",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ton Sharp",
+            "email": "66Ton99@gmail.com"
+        },
+        {
+            "name": "Tomasz Wójcik",
+            "email": "tomasz.prgtw.wojcik@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "prgTW\\SqlDateTime\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "prgTW\\SqlDateTime\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
