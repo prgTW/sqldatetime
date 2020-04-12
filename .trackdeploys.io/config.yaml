@@ -1,0 +1,12 @@
+pipelines:
+    -   name: 'CI'
+        steps:
+            -   github_status:
+                    tracked_branch: 'test'
+                    name: 'continuous-integration/travis-ci/push'
+            -   github_status:
+                    tracked_branch: 'test'
+                    name: 'codecov/project'
+            -   github_status:
+                    tracked_branch: 'test'
+                    name: 'codecov/patch'
