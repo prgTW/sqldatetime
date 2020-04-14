@@ -4,4 +4,4 @@
 [![Build Status](https://travis-ci.org/prgTW/sqldatetime.svg?branch=master)](https://travis-ci.org/prgTW/sqldatetime)
 [![Code coverage](https://codecov.io/gh/prgTW/sqldatetime/branch/master/graph/badge.svg)](https://codecov.io/gh/prgTW/sqldatetime)
 
-force push
+kamil&adam
